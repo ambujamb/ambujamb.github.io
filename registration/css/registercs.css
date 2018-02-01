@@ -1,0 +1,42 @@
+body
+{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+}
+ #outer
+ {
+   height: 50%;
+   width: 30%;
+  // border: 1px solid black;
+   background-color: white;
+   margin: 150px 350px;
+   padding: 20px;
+   padding-left: 100px;
+ }
+p
+{
+  font-style: bold;
+  padding-left: 70px;
+  font-family: 10;
+}
+}
+input
+{
+  outline: none;
+  height: 20px;
+}
+.startbutton
+{
+  height: 40px;
+  width: 100px;
+  background-color: orange;
+  border: 1px solid orange;
+  margin-left: 150px;
+}
+h1
+{
+  padding-left: 150px;
+}
+ 
