@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/registercs.css">
+</head>
+<body>
+<div id="outer">
+<h1>Sign Up</h1>
+<form action="php/signupcode.php" method="POST"> 
+  <input type="text" name="Username" placeholder="Username" required style="width: 400px"><br><br>
+  <input type="email" name="Email" placeholder="Email" required style="width: 400px"><br><br>
+  <input type="password" name="Password" placeholder="Password" required style="width: 400px"><br><br>
+  <input type="radio" name="gender" value="Male">Male&nbsp
+  <input type="radio" name="gender" value="Female">Female<br><br>
+  <input type="checkbox" checked="checked" required>I'm Not a Bot<br><br>
+  <input type="text" name="code" required style="height: 20px margin-bottom: 10px">&nbsp 
+  <img src="image.php">
+  <button type="submit" class="startbutton" name="submit">Start</button><br><br>
+</form>
+<p>By starting,you agree to Terms & Conditions <br>and Privacy Policy.</p>
+</div>
+</body>
+</html>
